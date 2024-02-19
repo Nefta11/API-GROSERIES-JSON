@@ -3,8 +3,6 @@ import { getAll, insertProduct, getOne, updateProduct, deleteProduct } from '../
 
 const router = Router();
 
-
-
 // Rutas sin un prefijo específico
 router.get('/', getAll);
 router.get('/:barcode', getOne);
