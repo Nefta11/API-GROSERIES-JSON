@@ -3,8 +3,10 @@ import morgan from "morgan";
 import { config } from "dotenv";
 import productsRouter from './routes/products.routes.js'
 
+
 const app = express();
 config();
+
 
 app.use(morgan("dev"));
 app.use(express.json());
